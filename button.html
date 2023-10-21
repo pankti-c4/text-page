@@ -16,6 +16,13 @@
     border-radius: 4px;
     cursor: pointer;
     margin-right: 10px;
+    transition: opacity 1s;
+}
+.subscribe-button:hover{
+  opacity: 0.7;
+}
+.subscribe-button:active{
+  opacity: 0.1;
 }
 
  
@@ -30,9 +37,15 @@
     margin-right: 10px;
     cursor: pointer;
     border-style: solid;
+    transition: background-color 1s,color 1s;
 
 
 }
+.join-button:hover{
+  background-color:rgb(37, 109, 205); 
+  color:white ;
+}
+
 
 .tweet-button {
     background-color: rgb(34, 161, 211);
@@ -45,6 +58,12 @@
     border-radius: 18.5px;
     cursor: pointer;
     margin-right: 10px;
+    /* box-shadow: 5px 5px 12px rgb(22, 100, 163); */
+    transition: box-shadow 2s;
+
+}
+.tweet-button:hover{
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
 }
 
   .uber-button {
@@ -56,6 +75,14 @@
     font-size: 15px;
     cursor: pointer;
     margin-right: 10px;
+    transform: opacity 1s color 1s;
+  }
+  .uber-button:hover{
+  opacity: 0.7;
+  color: rgb(205, 215, 21);
+  }
+  .uber-button:active{
+  opacity: 0.3;
   }
 
     .amazon-button {
@@ -69,7 +96,14 @@
     cursor: pointer;
     font-size: 15px;
     margin-right: 10px;
+transition: background-color 1s;
+  }
 
+  .amazon-button:hover{
+background-color: rgb(237, 159, 14);
+  }
+  .amazon-button:active{
+background-color: rgb(240, 240, 122);
   }
 
   .github-button{
@@ -83,7 +117,12 @@
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+    transition: box-shadow 1s;
   }
+  .github-button:hover{
+    box-shadow: 5px 7px 10px rgba(13, 185, 128, 0.5);
+  }
+
 .bootstrap1-button {
 background-color: rgb(121,82,179);
 color: white;
@@ -95,8 +134,12 @@ margin-right: 10px;
 cursor: pointer;
 font-size: 15px;
 font-weight: bold;
+transition: background-color 1s, color 1s;
 
-
+  }
+  .bootstrap1-button:hover {
+    background-color: rgb(52, 13, 90);
+    color: rgb(186, 131, 237);
   }
 
   .bootstrap2-button {
@@ -113,10 +156,14 @@ font-weight: bold;
 margin-right: 10px;
   }
 
+  .bootstrap2-button:hover {
+    background-color: purple;
+    color: white;
+  }
+
   .linkedin1-button{
      background-color: rgb(10, 102, 194);
      color: white;
-   
      height: 37px;
      width: 300px;
      border: none;
@@ -125,10 +172,14 @@ margin-right: 10px;
      font-weight: bold;
      margin-right: 10px;
      cursor: pointer;
-
-
+     transition: background-color 0.15s, color 0.15s ;
   }
 
+  .linkedin1-button:hover{
+    background-color:white ;
+    color: rgb(46, 46, 209);
+    border: solid 3px rgb(89, 89, 211);
+  }
   .linkedin2-button{
     background-color: white;
     color: rgb(10, 102, 194);
@@ -140,6 +191,11 @@ margin-right: 10px;
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+    transition: background-color 1s,color 1s;
+  }
+  .linkedin2-button:hover{
+    background-color: rgb(10, 102, 194) ;
+    color: white;
   }
   h4 {
     margin-right: 40px;
@@ -147,11 +203,7 @@ margin-right: 10px;
   div{
     display: inline-block;
   }
-    button:hover{
-    background-color: black;
-    color: hotpink;
-    font-size: 15px;
-  }  
+    
 
 
     </style>
